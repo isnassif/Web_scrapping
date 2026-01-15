@@ -1,9 +1,9 @@
 <h1>Web_scrapping</h1>
-<p>Olá! Esse é meu repositório de web scraping. Na pasta <strong>"Codes"</strong> você pode conferir o código de cada um dos projetos. Abaixo, apresento o relatório detalhado das funcionalidades.</p>
+<p>Olá! Esse é meu repositório de web scraping, aqui você vai encontrar os meus testes e o meu caminho de aprendizado nessa tecnologia. Na pasta <strong>"Codes"</strong> você pode conferir o código de cada um dos projetos. Abaixo, apresento o relatório detalhado das funcionalidades.</p>
 
 <section class="container">
     <h2>1. Web_scraping_1</h2>
-    <p>Este projeto realiza a raspagem do site <em>"Quotes to scrape"</em>. Por ser uma versão inicial, o script foca na funcionalidade essencial de extração de frases utilizando duas metodologias distintas:</p>
+    <p>Esse foi o primeiro arquivo feito, utiliza web scraping de forma muito básica, faz a raspagem do site <em>"Quotes to scrape"</em> que contém algumas frases de figuras famosas. Como foi o primeiro arquivo feito, ele ainda é muito básico, não contém headers e tem apenas uma funcionalidade, buscar as frases presentes no site, essa busca acontece de duas maneiras (ambas no arquivo):</p>
      <div class="metodo">
         <ul>
             <li>
