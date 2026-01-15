@@ -85,7 +85,7 @@
 <div align="center">
       <img src="https://github.com/user-attachments/assets/59472962-40c3-4969-8bd8-f90741b89671" width="400" height="800" style="object-fit: cover;">
       <br>
-      <em>Figura 2: Parte do resultado da busca pelo celular. </em>
+      <em>Figura 3: Tabela gerada após extração dos dados do site. </em>
     </div>
 
 </section>
