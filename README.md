@@ -58,5 +58,34 @@
       <em>Figura 2: Parte do resultado da busca pelo celular. </em>
     </div>
 
+<h2>3. Web_scraping_soccer</h2>
+<p>Este projeto aborda um dos maiores desafios do web scraping moderno: a extração de dados de sites que utilizam carregamento dinâmico via JavaScript. O objetivo aqui foi capturar estatísticas detalhadas du uma partida de futebol no site SofaScore.</p>
+
+<div class="metodo">
+    <ul>
+        <li>
+            <strong>Limitação do Requests:</strong> 
+            O primeiro teste (comentado no código) demonstrou que o uso simples da biblioteca <code>requests</code> falha em sites com proteções complexas ou carregamento assíncrono, resultando em dados incompletos ou erros de acesso.
+        </li>
+        <li>
+            <strong>Automação com Playwright:</strong> 
+            Para contornar o problema, implementei o <strong>Playwright</strong>. Ele simula um navegador real (Chromium) que carrega a página completa, executa o JavaScript e gera os cookies/tokens necessários para validar a requisição.
+        </li>
+        <li>
+            <strong>Injeção de Script (Page Evaluate):</strong> 
+            Utilizei o método <code>page.evaluate</code> para executar um <code>fetch</code> diretamente no contexto do navegador. Isso permite capturar os dados da API interna do site já autenticado, garantindo o acesso aos arquivos JSON.
+        </li>
+        <li>
+            <strong>Exportação para Pandas/Excel:</strong> 
+            Após o tratamento dos dados estruturados em JSON, utilizei a biblioteca <strong>Pandas</strong> para organizar as estatísticas (como posse de bola, chutes e faltas) em um DataFrame e exportá-las para um arquivo <code>.xlsx</code>.
+        </li>
+    </ul>
+</div>
+
+<div align="center">
+      <img src="https://github.com/user-attachments/assets/59472962-40c3-4969-8bd8-f90741b89671" width="400" height="800" style="object-fit: cover;">
+      <br>
+      <em>Figura 2: Parte do resultado da busca pelo celular. </em>
+    </div>
 
 </section>
