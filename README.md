@@ -1,16 +1,29 @@
-# Web_scrapping
+<h1>Web_scrapping</h1>
+<p>Olá! Esse é meu repositório de web scraping. Na pasta <strong>"Codes"</strong> você pode conferir o código de cada um dos projetos. Abaixo, apresento o relatório detalhado das funcionalidades.</p>
 
-Olá! Esse é meu repositório de web scraping, na pasta "Codes" você pode conferir o código de cada um dos projetos que fiz, caso queria entender de forma mais explicada, leia o relatório a seguir, onde será explicado detalhadamente cada um dos códigos e suas funcionalidades
+<section class="container">
+    <h2>1. Web_scraping_1</h2>
+    <p>Este projeto realiza a raspagem do site <em>"Quotes to scrape"</em>. Por ser uma versão inicial, o script foca na funcionalidade essencial de extração de frases utilizando duas metodologias distintas:</p>
+     <div class="metodo">
+        <ul>
+            <li>
+                <strong>Busca Hierárquica (Div > Span):</strong> 
+                Consiste em localizar as <code>divs</code> de classe <code>"quote"</code> para então filtrar o <code>span</code> de classe <code>"text"</code>. 
+                <em>Vantagem:</em> Ideal para extrair múltiplos dados correlacionados (autor, tags). 
+                <em>Desvantagem:</em> Maior custo computacional por realizar duas buscas.
+            </li>
+            <li>
+                <strong>Busca Direta (Itemprop):</strong> 
+                Localiza diretamente os elementos com a marcação <code>itemprop="text"</code>.
+                <em>Vantagem:</em> Maior rapidez e eficiência na execução do script.
+            </li>
+        </ul>
+    </div>
 
+  <figure>
+        <img src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" alt="Saída do código no terminal">
+        <figcaption>Figura 1: Demonstração da saída visual do script capturando as frases do site.</figcaption>
+    </figure>
+  </section>
 
-1. Web_scraping_1
-
-Esse foi o primeiro arquivo feito, utiliza web scraping de forma muito básica, faz a raspagem do site "Quotes to scrape", que contém algumas frases de pessoas famosas. Como foi o primeiro arquivo feito, ele ainda é muito básico, não contém headers e tem apenas uma funcionalidade, buscar as frases presentes no site, essa busca acontece de duas maneiras (ambas no arquivo):
-
-- A primeira é através da busca das divs com a classe "quote" e dentro delas a busca pelo span da classe "text", isso seria vantajoso se eu estivesse também procurando por informaçẽos além da frase, por exemplo, o nome do autor, o ano da frase, etc. Mas é desvantajoso em relação ao custo, tendo em vista que são realizadas duas buscas
-
-- A segunda é uma busca mais direta, tendi em vista que ela vai direto nos dados com a marcação de itemprop "text", isso torna a busca mais rápida e eficiente.
-
-Abaixo segue a saída visual do código
-
-<img width="1194" height="362" alt="image" src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" />
+</body>
