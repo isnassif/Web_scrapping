@@ -24,6 +24,6 @@
         <img src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" alt="Saída do código no terminal">
         <figcaption>Figura 1: Demonstração da saída visual do script capturando as frases do site.</figcaption>
     </figure>
-  </section>
 
-</body>
+    
+</section>
