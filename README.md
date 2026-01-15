@@ -59,7 +59,7 @@
     </div>
 
 <h2>3. Web_scraping_soccer</h2>
-<p>Este projeto aborda um dos maiores desafios do web scraping moderno: a extração de dados de sites que utilizam carregamento dinâmico via JavaScript. O objetivo aqui foi capturar estatísticas detalhadas du uma partida de futebol no site SofaScore.</p>
+<p>Este projeto aborda um dos maiores desafios do web scraping moderno: a extração de dados de sites que utilizam carregamento dinâmico via JavaScript. O objetivo aqui foi capturar estatísticas detalhadas de uma partida de futebol (Corinthians x Ponte Preta) no site SofaScore.</p>
 
 <div class="metodo">
     <ul>
