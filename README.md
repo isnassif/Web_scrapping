@@ -29,7 +29,7 @@
 
 
 <h2>2. Web_scraping_mercado_livre</h2>
-<p>Este projeto representa uma evolução significativa em relação ao primeiro, introduzindo conceitos essenciais para raspagem de dados em sites dinâmicos e de grande porte. O script realiza a busca de produtos no Mercado Livre, extraindo nomes, preços e links de forma automatizada.</p>
+<p>Este projeto representa uma evolução significativa em relação ao primeiro, introduzindo conceitos essenciais para raspagem de dados em sites dinâmicos e de grande porte. O script realiza a busca de produtos no Mercado Livre, extraindo nomes, preços e links de forma automatizada, nesse projeto em específico, o código busca pelo celular iphone 15</p>
 
 <div class="metodo">
     <ul>
@@ -52,6 +52,11 @@
     </ul>
 </div>
 
-</div>
-    
+<div align="center">
+      <img src="https://github.com/user-attachments/assets/be8b1349-b48c-45f5-8324-dfee8852a454" width="400" height="400" style="object-fit: cover;">
+      <br>
+      <em>Figura 2: Parte do resultado da busca pelo celular. </em>
+    </div>
+
+
 </section>
