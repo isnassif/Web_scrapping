@@ -1,28 +1,3 @@
-/* Estilização da Imagem e Legenda */
-figure { 
-    margin: 20px 0; 
-    display: flex;             /* Transforma em flexbox para facilitar o alinhamento */
-    flex-direction: column;    /* Coloca imagem e legenda em coluna */
-    align-items: center;       /* Centraliza os itens horizontalmente */
-}
-
-img { 
-    width: 400px; 
-    height: 400px; 
-    object-fit: cover; 
-    border-radius: 8px;
-    border: 1px solid #ddd;
-}
-
-figcaption { 
-    font-size: 0.9em; 
-    color: #666; 
-    margin-top: 8px; 
-    font-style: italic;
-    text-align: center;       /* <--- Isso garante a centralização do texto */
-    width: 100%;              /* Garante que ele ocupe a largura disponível para alinhar */
-}
-
 <h1>Web_scrapping</h1>
 <p>Olá! Esse é meu repositório de web scraping, aqui você vai encontrar os meus testes e o meu caminho de aprendizado nessa tecnologia. Na pasta <strong>"Codes"</strong> você pode conferir o código de cada um dos projetos. Abaixo, apresento o relatório detalhado das funcionalidades.</p>
 
@@ -45,10 +20,12 @@ figcaption {
         </ul>
     </div>
 
-  <figure>
-        <img src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" alt="Saída do código no terminal">
-        <figcaption>Figura 1: Demonstração da saída visual do script capturando as frases do site.</figcaption>
-    </figure>
+  
+<div align="center">
+      <img src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" width="400" height="400" style="object-fit: cover;">
+      <br>
+      <em>Figura 1: Saída visual do script com ambas as buscas. </em>
+    </div>
 
     
 </section>
