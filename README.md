@@ -27,5 +27,31 @@
       <em>Figura 1: Saída visual do script com ambas as buscas. </em>
     </div>
 
+
+<h2>2. Web_scraping_mercado_livre</h2>
+<p>Este projeto representa uma evolução significativa em relação ao primeiro, introduzindo conceitos essenciais para raspagem de dados em sites dinâmicos e de grande porte. O script realiza a busca de produtos no Mercado Livre, extraindo nomes, preços e links de forma automatizada.</p>
+
+<div class="metodo">
+    <ul>
+        <li>
+            <strong>Uso de Headers (User-Agent):</strong> 
+            Diferente do projeto anterior, aqui foi implementado um cabeçalho que simula uma requisição feita por um navegador real. Isso é fundamental para evitar bloqueios por sistemas anti-bot.
+        </li>
+        <li>
+            <strong>Tratamento de URL Dinâmica:</strong> 
+            O código recebe o nome do produto via entrada do usuário e trata espaços em branco, formatando a URL para o padrão do Mercado Livre.
+        </li>
+        <li>
+            <strong>Loop de Paginação Automatizado:</strong> 
+            Implementação de uma lógica de repetição que navega pelas páginas de resultados (incrementando o índice de 48 em 48 produtos), parando automaticamente quando não encontra mais descrições no site.
+        </li>
+        <li>
+            <strong>Zipagem de Dados:</strong> 
+            Utilização da função <code>zip()</code> para iterar simultaneamente sobre listas de nomes, preços e links, garantindo a integridade da relação entre os dados.
+        </li>
+    </ul>
+</div>
+
+</div>
     
 </section>
