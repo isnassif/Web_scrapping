@@ -21,7 +21,7 @@
     </div>
 
   
-<div align="center">
+   <div align="center">
       <img src="https://github.com/user-attachments/assets/5fee6a63-667f-432d-886c-15c4ac29ad14" width="400" height="400" style="object-fit: cover;">
       <br>
       <em>Figura 1: Saída visual do script com ambas as buscas. </em>
